@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: e8a2950209fd42d4d9a0dfda77ebe05f
+  - enabled: 1
+    path: Assets/Scenes/SongSelect.unity
+    guid: dbfc69bfbbda7344ca9b9bcb2f1d6480
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 286dc89d1f37f4448865dac01656daf4
+  - enabled: 1
+    path: Assets/Scenes/Results.unity
+    guid: 29331d6fe2e430c41afbb10ef4d5b7cc
+  - enabled: 1
+    path: Assets/Scenes/Fail.unity
+    guid: ad2ab15804720b2409465379dab030fe
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
