@@ -21,35 +21,73 @@ public class SceneNav : MonoBehaviour
     /// </summary>
     public void GoGameplay()
     {
-        string scene = DEFAULT_SONG_SCENE;
-
-        if (GameState.I != null && !string.IsNullOrEmpty(GameState.I.selectedSongScene))
-            scene = GameState.I.selectedSongScene;
-
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(GetSelectedSongSceneOrDefault());
     }
 
     /// <summary>
     /// Retry the current song (reloads the selected song scene).
+    /// Works from Fail screen too.
     /// </summary>
     public void Retry()
     {
-        string scene = DEFAULT_SONG_SCENE;
-
+        // Reset run state if available
         if (GameState.I != null)
-        {
             GameState.I.ResetRun();
 
-            if (!string.IsNullOrEmpty(GameState.I.selectedSongScene))
-                scene = GameState.I.selectedSongScene;
-        }
+        SceneManager.LoadScene(GetSelectedSongSceneOrDefault());
+    }
 
-        SceneManager.LoadScene(scene);
+    /// <summary>
+    /// Fail screen button: go back to song select.
+    /// Also resets run state so you don't carry "failed" state forward.
+    /// </summary>
+    public void FailToSongSelect()
+    {
+        if (GameState.I != null)
+            GameState.I.ResetRun();
+
+        SceneManager.LoadScene(SONG_SELECT);
+    }
+
+    /// <summary>
+    /// Fail screen button: replay (alias for Retry).
+    /// Useful if you want a clearer button hookup name in Inspector.
+    /// </summary>
+    public void FailReplay()
+    {
+        Retry();
+    }
+
+    /// <summary>
+    /// Optional helper if you want a Fail button to go back to Start Menu.
+    /// </summary>
+    public void FailToStartMenu()
+    {
+        if (GameState.I != null)
+            GameState.I.ResetRun();
+
+        SceneManager.LoadScene(START_MENU);
     }
 
     public void Quit()
     {
         Application.Quit();
         Debug.Log("Quit (won't quit in editor)");
+    }
+
+    // --------------------
+    // Helpers
+    // --------------------
+
+    private static string GetSelectedSongSceneOrDefault()
+    {
+        // Default fallback
+        string scene = DEFAULT_SONG_SCENE;
+
+        // Use selectedSongScene if your GameState stores it
+        if (GameState.I != null && !string.IsNullOrEmpty(GameState.I.selectedSongScene))
+            scene = GameState.I.selectedSongScene;
+
+        return scene;
     }
 }
