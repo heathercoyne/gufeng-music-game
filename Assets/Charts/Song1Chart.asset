@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d733f7d4a1bd0c6419d77047cb3bcaca, type: 3}
+  m_Name: Song1Chart
+  m_EditorClassIdentifier: Assembly-CSharp::SongChart
+  audioClip: {fileID: 8300000, guid: 85854c4a2ca79d64d95e1c8fd328da9c, type: 3}
+  leadIn: 1
+  notes:
+  - lane: 1
+    startTime: 17.986666
+    duration: 0.3200016
+  - lane: 2
+    startTime: 18.114666
+    duration: 0.3200016
+  - lane: 3
+    startTime: 18.413334
+    duration: 0.49066544
+  - lane: 2
+    startTime: 18.84
+    duration: 0.298666
+  - lane: 3
+    startTime: 19.117332
+    duration: 0.661335
+  - lane: 4
+    startTime: 19.714666
+    duration: 0.44799995
+  - lane: 3
+    startTime: 20.12
+    duration: 0.81066513
+  - lane: 3
+    startTime: 21.485332
+    duration: 0.25600052
+  - lane: 4
+    startTime: 21.677334
+    duration: 0.38399887
+  - lane: 3
+    startTime: 21.954666
+    duration: 0.51200104
+  - lane: 2
+    startTime: 22.402666
+    duration: 0.2986679
+  - lane: 3
+    startTime: 22.637333
+    duration: 0.6186676
+  - lane: 4
+    startTime: 23.170666
+    duration: 0.661335
+  - lane: 3
+    startTime: 23.725334
+    duration: 0.6826668
+  - lane: 2
+    startTime: 25.005333
+    duration: 0.23466682
+  - lane: 3
+    startTime: 25.154667
+    duration: 0.38399887
+  - lane: 4
+    startTime: 25.432
+    duration: 0.49066734
+  - lane: 3
+    startTime: 25.88
+    duration: 0.8959999
+  - lane: 4
+    startTime: 26.2
+    duration: 0.2773323
+  - lane: 4
+    startTime: 26.776
+    duration: 0.46933365
+  - lane: 3
+    startTime: 27.16
+    duration: 0.5760002
+  - lane: 4
+    startTime: 28.098667
+    duration: 0.2559986
+  - lane: 3
+    startTime: 28.290667
+    duration: 0.3413334
+  - lane: 3
+    startTime: 28.738667
+    duration: 0.19199944
+  - lane: 3
+    startTime: 28.973333
+    duration: 0.51199913
+  - lane: 2
+    startTime: 29.421333
+    duration: 0.51199913
+  - lane: 3
+    startTime: 29.869333
+    duration: 0.72533417
+  - lane: 1
+    startTime: 32.088
+    duration: 0.21333313
+  - lane: 2
+    startTime: 32.216
+    duration: 0.23466873
+  - lane: 3
+    startTime: 32.514668
+    duration: 0.2773323
+  - lane: 2
+    startTime: 32.984
+    duration: 0.106666565
+  - lane: 3
+    startTime: 33.197334
+    duration: 0.2986641
+  - lane: 3
+    startTime: 33.794666
+    duration: 0.51200104
+  - lane: 2
+    startTime: 34.24267
+    duration: 0.8959999
+  - lane: 3
+    startTime: 35.629333
+    duration: 0.19200134
+  - lane: 4
+    startTime: 35.821335
+    duration: 0.2986641
+  - lane: 3
+    startTime: 36.056
+    duration: 0.46933365
+  - lane: 2
+    startTime: 36.482666
+    duration: 0.25600052
+  - lane: 3
+    startTime: 36.781334
+    duration: 0.6186676
+  - lane: 4
+    startTime: 37.464
+    duration: 0.34133148
+  - lane: 3
+    startTime: 37.869335
+    duration: 0.78933334
+  - lane: 1
+    startTime: 39.149334
+    duration: 0.2986679
+  - lane: 2
+    startTime: 39.362667
+    duration: 0.21333313
+  - lane: 3
+    startTime: 39.576
+    duration: 0.42666626
+  - lane: 2
+    startTime: 39.981335
+    duration: 0.19199753
+  - lane: 3
+    startTime: 40.194668
+    duration: 0.5760002
+  - lane: 3
+    startTime: 40.877335
+    duration: 0.49066544
+  - lane: 2
+    startTime: 41.261333
+    duration: 0.49066544
+  - lane: 2
+    startTime: 42.434666
+    duration: 0.27733612
+  - lane: 3
+    startTime: 42.669334
+    duration: 0.106666565
+  - lane: 2
+    startTime: 42.904
+    duration: 0.23466873
+  - lane: 3
+    startTime: 43.074665
+    duration: 0.44800186
+  - lane: 4
+    startTime: 43.522667
+    duration: 0.44799805
+  - lane: 3
+    startTime: 43.928
+    duration: 0.9386635
+  - lane: 5
+    startTime: 46.210667
+    duration: 0.12799835
+  - lane: 4
+    startTime: 46.424
+    duration: 0.21333313
+  - lane: 3
+    startTime: 46.594666
+    duration: 0.51200104
+  - lane: 2
+    startTime: 47.042667
+    duration: 0.2986641
+  - lane: 3
+    startTime: 47.298668
+    duration: 0.6613312
+  - lane: 4
+    startTime: 47.896
+    duration: 0.6399994
+  - lane: 3
+    startTime: 48.45067
+    duration: 0.81066513
+  - lane: 1
+    startTime: 49.688
+    duration: 0.25600052
+  - lane: 2
+    startTime: 49.901333
+    duration: 0.2986679
+  - lane: 3
+    startTime: 50.114666
+    duration: 0.46933365
+  - lane: 2
+    startTime: 50.498665
+    duration: 0.36266708
+  - lane: 3
+    startTime: 50.81867
+    duration: 0.6613312
+  - lane: 4
+    startTime: 51.416
+    duration: 0.46933365
+  - lane: 3
+    startTime: 51.885334
+    duration: 0.8959999
+  - lane: 3
+    startTime: 52.888
+    duration: 0.19200134
+  - lane: 5
+    startTime: 53.122665
+    duration: 0.14933395
+  - lane: 4
+    startTime: 53.336
+    duration: 0.40533447
+  - lane: 3
+    startTime: 53.848
+    duration: 0.17066574
+  - lane: 5
+    startTime: 54.018665
+    duration: 0.2986679
+  - lane: 4
+    startTime: 54.317333
+    duration: 0.6826668
+  - lane: 3
+    startTime: 54.936
+    duration: 0.44799805
+  - lane: 3
+    startTime: 55.512
+    duration: 0.44799805
+  - lane: 2
+    startTime: 55.810665
+    duration: 0.44800186
+  - lane: 3
+    startTime: 56.386665
+    duration: 1.770668
+  - lane: 6
+    startTime: 58.541332
+    duration: 0.46933365
+  - lane: 5
+    startTime: 58.946667
+    duration: 0.51200104
+  - lane: 3
+    startTime: 59.565334
+    duration: 0.14933395
+  - lane: 4
+    startTime: 59.928
+    duration: 1.8133316
+  - lane: 3
+    startTime: 60.376
+    duration: 1.408001
